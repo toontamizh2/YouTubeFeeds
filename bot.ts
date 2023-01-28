@@ -68,7 +68,7 @@ Click the button below to join the group !
   );
   if (OWNERS.includes(ctx.from!.id)) {
     await ctx.reply(
-      "Use /add in any chat to add a feed to the chat. Use /list to view all added feeds and to remove them.",
+      "Subscribe Dub Toons For Awesome Anime & Pokemon Updates. Dub Toons Channel - https://www.youtube.com/DubToonsChannel",
       { parse_mode: "Markdown" },
     );
   }
