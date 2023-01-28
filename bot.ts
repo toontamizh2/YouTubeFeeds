@@ -68,7 +68,7 @@ Click the button below to join the group !
   );
   if (OWNERS.includes(ctx.from!.id)) {
     await ctx.reply(
-      "Subscribe Dub Toons For Awesome Anime & Pokemon Updates. Dub Toons Channel - https://www.youtube.com/DubToonsChannel",
+      "Subscribe Dub Toons For Awesome Anime & Pokemon Updates! Dub Toons Channel - https://www.youtube.com/DubToonsChannel",
       { parse_mode: "Markdown" },
     );
   }
