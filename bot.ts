@@ -55,14 +55,14 @@ bot.command("start", async (ctx) => {
     `
 Hey ${ctx.from!.first_name}!
 
-I'm a YouTube feeds bot. I can send you the latest videos from your favorite YouTube channels.
+I'm Dub Toons Bot. I'll Send You Dub Toons Channel Videos On @DubToonsOfficial
 
-Please deploy your own instance of the bot to use it. Find the repository in the button below.
+Click the button below to join the group !
 `,
     {
       reply_markup: new InlineKeyboard().url(
-        "Repository",
-        "https://github.com/xditya/YouTubeFeeds",
+        "Dub Toons Group",
+        "https://telegram.me/DubToonsOfficial",
       ),
     },
   );
